@@ -1,0 +1,38 @@
+<div class="navbar">
+  <div class="navbar-left">
+    <div class="navbar-items">
+      <div class="navbar-item">
+        <i class="fas fa-bullseye"></i>
+      </div>
+      <div class="navbar-item">
+        <p>Home</p>
+      </div>
+      <div class="navbar-item">
+        <p>Profile</p>
+      </div>
+      <div class="navbar-item">
+        <p>Posts</p>
+      </div>
+    </div>
+  </div>
+  <div class="navbar-right">
+    <div class="navbar-items">
+      <div class="navbar-item">
+        <i class="fas fa-sun" (click)="onLightClick()" *ngIf="isDarkTheme"></i>
+        <i class="fas fa-moon" (click)="onDarkClick()" *ngIf="!isDarkTheme"></i>
+      </div>
+      <div class="navbar-item">
+        <p>
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+          Contact
+        </p>
+      </div>
+      <div class="navbar-item">
+        <p>
+          <i class="fa fa-cog" aria-hidden="true"></i>
+          Settings
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
