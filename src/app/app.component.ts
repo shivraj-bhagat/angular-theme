@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Inject } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular-theme';
+
+  constructor(@Inject(DOCUMENT) private document: Document) {
+    const head = this.document.getElementsByTagName('head')[0];
+    const style = this.document.createElement('link');
+    style.id = 'theme';
+    style.rel = 'stylesheet';
+    style.href = 'custom.css';
+    head.appendChild(style);
+  }
 }

@@ -1,0 +1,100 @@
+@import '~@angular/material/theming';
+
+$mat-gray-custom: (
+    50 : #f6f7f8,
+    100 : #e8eced,
+    200 : #d9dfe1,
+    300 : #c9d2d5,
+    400 : #bec8cc,
+    500 : #b2bec3,
+    600 : #abb8bd,
+    700 : #a2afb5,
+    800 : #99a7ae,
+    900 : #8a99a1,
+    A100 : #ffffff,
+    A200 : #ffffff,
+    A400 : #ceefff,
+    A700 : #b5e7ff,
+    A900: #000000,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #000000,
+        500 : #000000,
+        600 : #000000,
+        700 : #000000,
+        800 : #000000,
+        900 : #000000,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
+);
+
+body[theme-scheme="material"][theme-mode="light"] {
+  --primary: #{mat-color(mat-palette($mat-indigo))};
+  --secondary: #{mat-color(mat-palette($mat-indigo, 400))};
+  --text-color-bar: #{mat-color(mat-palette($mat-gray-custom, A100))};
+  --text-color: #{mat-color(mat-palette($mat-gray-custom, A900))};
+  --text-color-secondary: #{mat-color(mat-palette($mat-gray-custom))};
+  --icon-color-primary: #{mat-color(mat-palette($mat-indigo, 700))};
+  --icon-color-secondary: #{mat-color(mat-palette($mat-indigo, 500))};
+  --shadow: #{mat-color(mat-palette($mat-gray-custom, 200))};
+  --background-color: #{mat-color(mat-palette($mat-gray-custom, A100))};
+  --red: #{mat-color(mat-palette($mat-pink, 500))};
+  --link: #{mat-color(mat-palette($mat-indigo, 500))};
+  --border-color: #{mat-color(mat-palette($mat-gray-custom, 200))};
+  --input-color: #{mat-color(mat-palette($mat-gray-custom, 800))};
+}
+
+$mat-blue-custom: (
+    50 : #e5e8ee,
+    100 : #bec5d6,
+    200 : #939eba,
+    300 : #68779e,
+    400 : #47598a,
+    500 : #273c75,
+    600 : #23366d,
+    700 : #1d2e62,
+    800 : #172758,
+    900 : #0e1a45,
+    A100 : #7e96ff,
+    A200 : #4b6dff,
+    A400 : #1843ff,
+    A700 : #002ffd,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #ffffff,
+        400 : #ffffff,
+        500 : #ffffff,
+        600 : #ffffff,
+        700 : #ffffff,
+        800 : #ffffff,
+        900 : #ffffff,
+        A100 : #000000,
+        A200 : #ffffff,
+        A400 : #ffffff,
+        A700 : #ffffff,
+    )
+);
+
+body[theme-scheme="material"][theme-mode="dark"] {
+  --primary: #{mat-color(mat-palette($mat-blue-custom))};
+  --secondary: #{mat-color(mat-palette($mat-blue-custom, 300))};
+  --text-color-bar: #{mat-color(mat-palette($mat-gray-custom, A100))};
+  --text-color: #{mat-color(mat-palette($mat-gray-custom, A100))};
+  --text-color-secondary: #{mat-color(mat-palette($mat-gray-custom))};
+  --icon-color-primary: #{mat-color(mat-palette($mat-gray-custom, 200))};
+  --icon-color-secondary: #{mat-color(mat-palette($mat-gray-custom, 500))};
+  --shadow: #{mat-color(mat-palette($mat-gray-custom, 200))};
+  --background-color: #{mat-color(mat-palette($mat-blue-custom, 800))};
+  --red: #{mat-color(mat-palette($mat-pink, 500))};
+  --link: #{mat-color(mat-palette($mat-blue-custom, 500))};
+  --border-color: #{mat-color(mat-palette($mat-gray-custom, 200))};
+  --input-color: #{mat-color(mat-palette($mat-gray-custom, 800))};
+}

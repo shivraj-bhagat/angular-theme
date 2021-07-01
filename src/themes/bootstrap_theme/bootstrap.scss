@@ -1,0 +1,32 @@
+body[theme-scheme="bootstrap"][theme-mode="light"] {
+  --primary: var(--indigo);
+  --secondary: var(--purple);
+  --text-color-bar: var(--white);
+  --text-color: var(--dark);
+  --text-color-secondary: var(--gray);
+  --icon-color-primary: var(--indigo);
+  --icon-color-secondary: var(--purple);
+  --shadow: var(--light);
+  --background-color: var(--white);
+  --red: var(--red);
+  --link: var(--info);
+  --border-color: var(--gray);
+  --input-color: var(--secondary);
+}
+
+
+body[theme-scheme="bootstrap"][theme-mode="dark"] {
+  --primary: var(--dark);
+  --secondary: var(--gray);
+  --text-color-bar: var(--white);
+  --text-color: var(--white);
+  --icon-color-primary: var(--light);
+  --icon-color-secondary: var(--white);
+  --shadow: var(--gray);
+  --text-color-secondary: var(--light);
+  --background-color: var(--gray);
+  --red: var(--pink);
+  --link: var(--light);
+  --border-color: var(--light);
+  --input-color: var(--white);
+}

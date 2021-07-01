@@ -17,9 +17,36 @@
   </div>
   <div class="navbar-right">
     <div class="navbar-items">
-      <div class="navbar-item">
-        <i class="fas fa-sun" (click)="onLightClick()" *ngIf="isDarkTheme"></i>
-        <i class="fas fa-moon" (click)="onDarkClick()" *ngIf="!isDarkTheme"></i>
+      <div class="navbar-item dropdown">
+        <div>
+          <i class="fas fa-fill"></i>
+          <i class="fas fa-caret-down"></i>
+          <div class="dropdown-container">
+            <ul class="dropdown-list">
+              <li class="dropdown-sec">
+                <span>Custom</span>
+                <ul class="dropdown-list-sec">
+                  <li (click)="onthemeSelect('custom-light')"><i class="fas fa-sun"></i> Light</li>
+                  <li (click)="onthemeSelect('custom-dark')"><i class="fas fa-moon"></i> Dark</li>
+                </ul>
+              </li>
+              <li class="dropdown-sec">
+                <span>Bootstrap</span>
+                <ul class="dropdown-list-sec">
+                  <li (click)="onthemeSelect('bootstrap-light')"><i class="fas fa-sun"></i> Light</li>
+                  <li (click)="onthemeSelect('bootstrap-dark')"><i class="fas fa-moon"></i> Dark</li>
+                </ul>
+              </li>
+              <li class="dropdown-sec">
+                <span>Materialize</span>
+                <ul class="dropdown-list-sec">
+                  <li (click)="onthemeSelect('material-light')"><i class="fas fa-sun"></i> Light</li>
+                  <li (click)="onthemeSelect('material-dark')"><i class="fas fa-moon"></i> Dark</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
       <div class="navbar-item">
         <p>

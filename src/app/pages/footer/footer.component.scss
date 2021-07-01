@@ -3,6 +3,7 @@
   flex-direction: column;
   color: var(--text-color-bar);
   font-size: 18px;
+  transition: var(--transition);
 
   .footer-top, .footer-bottom {
     display: flex;
@@ -13,6 +14,7 @@
 
 .footer-top {
   background-color: var(--secondary);
+  transition: var(--transition);
 
   i {
     padding: 15px 10px;
@@ -23,11 +25,11 @@
   background-color: var(--primary);
   color: var(--text-color-bar);
   opacity: 0.8;
+  transition: var(--transition);
 
   span {
     color: var(--text-color-bar);
-  opacity: 0.9;
-    transition: 0.3s color;
+    opacity: 0.9;
 
     &:hover {
       color: var(--text-color-bar);
