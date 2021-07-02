@@ -94,7 +94,7 @@ body[theme-scheme="material"][theme-mode="dark"] {
   --shadow: #{mat-color(mat-palette($mat-gray-custom, 200))};
   --background-color: #{mat-color(mat-palette($mat-blue-custom, 800))};
   --red: #{mat-color(mat-palette($mat-pink, 500))};
-  --link: #{mat-color(mat-palette($mat-blue-custom, 500))};
+  --link: #{mat-color(mat-palette($mat-blue-custom, 100))};
   --border-color: #{mat-color(mat-palette($mat-gray-custom, 200))};
   --input-color: #{mat-color(mat-palette($mat-gray-custom, 800))};
 }

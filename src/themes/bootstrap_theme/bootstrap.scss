@@ -8,7 +8,6 @@ body[theme-scheme="bootstrap"][theme-mode="light"] {
   --icon-color-secondary: var(--purple);
   --shadow: var(--light);
   --background-color: var(--white);
-  --red: var(--red);
   --link: var(--info);
   --border-color: var(--gray);
   --input-color: var(--secondary);
@@ -25,8 +24,7 @@ body[theme-scheme="bootstrap"][theme-mode="dark"] {
   --shadow: var(--gray);
   --text-color-secondary: var(--light);
   --background-color: var(--gray);
-  --red: var(--pink);
-  --link: var(--light);
+  --link: var(--info);
   --border-color: var(--light);
   --input-color: var(--white);
 }

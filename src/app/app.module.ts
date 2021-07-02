@@ -8,13 +8,17 @@ import { FooterComponent } from './pages/footer/footer.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SignupComponent } from './pages/signup/signup.component';
+import { LoginComponent } from './pages/login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     FooterComponent,
-    HomePageComponent
+    HomePageComponent,
+    SignupComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

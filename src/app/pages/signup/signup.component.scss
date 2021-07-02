@@ -1,0 +1,109 @@
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.form {
+  border: 2px solid var(--border-color);
+  padding: 10px 20px;
+  width: 450px;
+  text-align: center;
+
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.17);
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.17);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.17);
+
+  h2 {
+    color: var(--red);
+    font-size: 30px;
+  }
+}
+
+.form-field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+  padding: 10px 0;
+
+  input {
+    padding: 7px 10px;
+    width: 100%;
+    font-family: "Lato", sans-serif;
+    border: 1px solid var(--border-color);
+    border-radius: 2px;
+    outline: none;
+    font-size: 16px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: var(--transition);
+  }
+}
+
+::placeholder {
+  color: var(--input-color);
+  transition: var(--transition);
+}
+
+.form-field.radio-section {
+  justify-content: end;
+  text-align: justify;
+  width: 100%;
+  color: var(--text-color);
+
+  .form-field-radio {
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+  }
+
+  label {
+    margin: 0;
+  }
+}
+
+input[type="submit"] {
+  background-color: var(--primary) !important;
+  color: var(--text-color);
+
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.17);
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.17);
+  -moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.17);
+
+  &:hover {
+    background-color: var(--secondary) !important;
+  }
+
+  &:active {
+    background-color: var(--secondary) !important;
+  }
+}
+
+.signup-with {
+
+  p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    color: var(--text-color);
+
+    i {
+      color: var(--link);
+    }
+  }
+}
+
+.bottom-p {
+  color: var(--text-color);
+
+  a {
+    text-decoration: none;
+    color: var(--link);
+  }
+}
