@@ -1,27 +1,78 @@
 # AngularTheme
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.8.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.8. This project is for demostrating the light and dark theme implementation of custom, bootstrap and material.
 
-## Development server
+## Custom Theme
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
++ ### Light
+- main
 
-## Code scaffolding
+  <img src="./screenshot/main-custom-light.png"><br>
+- login
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+  <img src="./screenshot/login-custom-light.png"><br>
+- signup
+ <img src="./screenshot/signup-custom-light.png"><br>
 
-## Build
+ + ### Dark
+- main
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+  <img src="./screenshot/main-custom-dark.png"><br>
+- login
 
-## Running unit tests
+  <img src="./screenshot/login-custom-dark.png"><br>
+- signup
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+  <img src="./screenshot/signup-custom-dark.png"><br>
 
-## Running end-to-end tests
+<hr>
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Bootstarp Theme
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
++ ### Light
+- main
+
+  <img src="./screenshot/main-bootstrap-light.png"><br>
+- login
+
+  <img src="./screenshot/login-bootstrap-light.png"><br>
+- signup
+ <img src="./screenshot/signup-bootstrap-light.png"><br>
+
+ + ### Dark
+- main
+
+  <img src="./screenshot/main-bootstrap-dark.png"><br>
+- login
+
+  <img src="./screenshot/login-bootstrap-dark.png"><br>
+- signup
+
+  <img src="./screenshot/signup-bootstrap-dark.png"><br>
+
+<hr>
+
+
+## Material Theme
+
++ ### Light
+- main
+
+  <img src="./screenshot/main-material-light.png"><br>
+- login
+
+  <img src="./screenshot/login-material-light.png"><br>
+- signup
+ <img src="./screenshot/signup-material-light.png"><br>
+
+ + ### Dark
+- main
+
+  <img src="./screenshot/main-material-dark.png"><br>
+- login
+
+  <img src="./screenshot/login-material-dark.png"><br>
+- signup
+
+  <img src="./screenshot/signup-material-dark.png"><br>
